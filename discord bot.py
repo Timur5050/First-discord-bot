@@ -96,4 +96,4 @@ async def on_message(message):
             await message.channel.send(content=f"This is an edited button response!")
 
 
-client.run('MTA1MjE1NDIyNTE3OTc3NTAzNg.GAK-HM.qTw5ZuBSGZfWiA_m-6C2FG4F1S3j_OQQgd8on4')
+client.run('MTA1MjE1NDIyNTE3OTc3NTAzNg.G1YUCi.n-gg3vPhS_ZfmtVGf6ShhxDnO9rusBHO686lx4')

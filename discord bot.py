@@ -34,12 +34,6 @@ async def on_message(message):
     if message.content.startswith('!random'):
         await message.channel.send(random.randint(1, 10))
 
-    if message.content.lower().startswith('!даня'):
-        await message.channel.send('лох!')
-
-    if message.content.lower().startswith('!тімур'):
-        await message.channel.send('красава')
-
     if "+" in message.content and message.content.lower().startswith('!'):
         culc_list = message.content[1:].split("+")
         await message.channel.send(int(culc_list[0]) + int(culc_list[1]))
@@ -96,4 +90,4 @@ async def on_message(message):
             await message.channel.send(content=f"This is an edited button response!")
 
 
-client.run('MTA1MjE1NDIyNTE3OTc3NTAzNg.G1YUCi.n-gg3vPhS_ZfmtVGf6ShhxDnO9rusBHO686lx4')
+client.run('')
